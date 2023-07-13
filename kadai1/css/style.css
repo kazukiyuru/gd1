@@ -1,71 +1,46 @@
-body{
-    background-color: blueviolet;
-}
-
 section{
     height: 100vh;
-    /*kこれをしないと画面全体にいかない */
+
     background-size: cover;
-    
+
     background-repeat: no-repeat;
-    /*画像の繰り返ししない。*/
+
     background-position: center center;
-scroll-snap-align: start;
+
 }
 
 .container
 {
-    overflow:auto;
-    scroll-snap-type: y mandatory;
-    height:100vh;
+    overflow: auto;
+    height: 100vh;
 }
 
-
-/*画像フォルダは書き換えたほうが見やすい。*/
-.hero
-{
+.hero{
     background-image: url(../images/hero.jpg);
     text-align: center;
     padding-top: 10vh;
-    /* 10分割したもの
-    P６９まで
-    */
 }
 
-.contact
-{
+.contact{
     background-image: url(../images/contact.jpg);
-    text-align: center;
-    padding-top:10vh;
 }
 
-.menu
-{
-    background-image: url(../images/menu.jpg);
-    text-align: center;
-    padding-top:10vh;
+.hoshizora{
+    background-image: url(../images/hoshizora.jpg);
 }
 
-.wrapper
-{
-    background-color: rgba(red, green, blue, alpha);
-    max-width: 900px;
-    margin:0 auto;
-    padding: 1.5rem;
-    /*余白つけるため
-    1remは１６px*/
-    border-radius: 50px;
-    /*角を丸くする。
-    応用編*/
+.fishing{
+    background-image: url(../images/fishing.jpg);
 }
 
-
-.title
-{
-    font-family: 'Gasoek One', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-    font-size: 4.5rem;
+.dolfhin{
+    background-image: url(../images/dolphin.jpg);
 }
+
+.temple{
+    background-image: url(../images/temple.jpg);
+}
+/*
+角を丸くするのはborder radius
+*/
 
