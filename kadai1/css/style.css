@@ -51,8 +51,14 @@ section{
 
 }
 
-
+.menu{
+background-image: url(../images/menu.jpg);
+}
     
+.access{
+    background-image: url(../images/access.jpg);
+
+}
 
 .title{
     text-shadow: 0 0 10px #fff;
