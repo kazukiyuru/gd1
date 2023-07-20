@@ -19,10 +19,12 @@ section{
     background-image: url(../images/hero.jpg);
     text-align: center;
     padding-top: 10vh;
+    
 }
 
 .contact{
     background-image: url(../images/contact.jpg);
+    background-color: aqua;
 }
 
 .hoshizora{
@@ -44,3 +46,25 @@ section{
 角を丸くするのはborder radius
 */
 
+.others{background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,135,228,1) 0%, rgba(0,212,255,1) 100%);
+
+}
+
+
+    
+
+.title{
+    text-shadow: 0 0 10px #fff;
+    font-size: 10vh;
+}
+
+p{
+    text-shadow: 0 0 10px #fff;
+    font-size: 5vh;
+}
+
+ul{
+    text-shadow: 0 0 10px #fff;
+    font-size: 5vh;
+}
