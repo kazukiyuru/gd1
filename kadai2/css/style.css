@@ -2,9 +2,11 @@
 
 
 body{
-    background-image:url(../images/kinga12.jpg) ;
-    background-size: cover;
+    background-image:url(../images/kinga7.png) ;
+  background-repeat: no-repeat;
     width:100%;
+    background-position-x:90% ;
+    background-position-y:20% ;
 }
 
 
