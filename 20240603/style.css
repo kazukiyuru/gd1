@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Note serif JP,serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(232, 238, 241, 0.9);
+}
+
+.tews {
+   margin: 0 auto;
+   margin-bottom: 30px;
+   }
+
+   .tews img {
+    width: 100%;
+   }
+
+
+
+section {
+    margin-bottom: 30px;
+}
+
+header {
+text-align: center;
+background-color:  #fff;
+color: black;
+height: 15vh;
+margin-bottom: 30px;
+}
+
+.soft {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.soft li a {
+   
+background-color: #fff;
+color: black;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 1.25rem;
+}
+
+.soft li {
+    line-height: 3;
+    list-style: none;
+    padding: 2px;
+    margin: 4.5px;
+}
+
+.soft a:hover {
+    background-color: #CDCDCD;
+}
+
+.fo01 li {
+font-size: 1rem;
+line-height: 4;
+
+}
+
+
+.fo01 li a {
+    background-color: #fff;
+color: black;
+    text-decoration: none;
+    
+    padding: 5px;
+  }
+
+.fo01 a:hover {
+    background-color: #CDCDCD;
+  }
+
+
+.fo01 {
+    height: 35vh;
+    background-color: #fff;
+color: black;
+padding: 10px;
+}
+
+.box2 {
+    height: 45vh;
+    background-color: #fff;
+color: black;
+}
+
+
+
+.boxz {
+    background-color: #CDCDCD;
+    height: 30vh;
+    margin-bottom: 30px;
+}
+
+.boxy {
+    background-color: #CDCDCD;
+    height: 10vh;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-variant-numeric: 1rem;
+}
+
+.btn {
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+
+.box3 {
+height: 35vh;
+background-color: #fff;
+color: black;
+}
+
